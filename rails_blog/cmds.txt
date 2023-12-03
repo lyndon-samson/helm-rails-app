@@ -1,0 +1,957 @@
+    1  ps 
+    2  ps -elf
+    3  ps -elf | grep ssh
+    4  kill 576
+    5  ps -elf | grep ssh
+    6  kill 1165
+    7  ssh 192.168.0.21
+    8  ssh pi@192.168.0.21
+    9  ping turingpi.local
+   10  ssh turingpi.local
+   11  ssh 192.168.0.82
+   12  ssh root@192.168.0.82
+   13  ssh root@192.168.0.128
+   14  ssh root@192.168.0.18
+   15  ssh root@192.168.0.156
+   16  scp /mnt/c/Users/matri/Downloads/2023-10-10-raspios-bookworm-armhf-lite.img root@192.168.0.156:/mnt/sdcard/
+   17  ssh root@192.168.0.156
+   18  ssh root@192.168.0.16
+   19  ssh root@192.168.0.70
+   20  history
+   21  ssh root@192.168.0.16
+   22  ssh root@192.168.0.17
+   23  ssh pi@192.168.0.18
+   24  vi ~/.ssh/known_hosts
+   25  ssh pi@192.168.0.18
+   26  cd /mnt/c/data
+   27  du -a  |grep jenkins.war
+   28  du -a  |grep jenkins.war$
+   29  curl '
+   30  curl 'https://www-dailytelegraph-com-au.cdn.ampproject.org/v/s/www.dailytelegraph.com.au/news/opinion/annette-sharp-why-some-will-be-relieved-at-judge-melissa-leongs-masterchef-exit/news-story/4a09298cec970e5ac2e56e3ea6072e05?amp=&amp_gsa=1&amp_js_v=a9&usqp=mq331AQGsAEggAID#amp_tf=From%20%251%24s&aoh=16985347328280&csi=0&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.dailytelegraph.com.au%2Fnews%2Fopinion%2Fannette-sharp-why-some-will-be-relieved-at-judge-melissa-leongs-masterchef-exit%2Fnews-story%2F4a09298cec970e5ac2e56e3ea6072e05'
+   31  curl 'https://www-dailytelegraph-com-au.cdn.ampproject.org/v/s/www.dailytelegraph.com.au/news/opinion/annette-sharp-why-some-will-be-relieved-at-judge-melissa-leongs-masterchef-exit/news-story/4a09298cec970e5ac2e56e3ea6072e05?amp=&amp_gsa=1&amp_js_v=a9&usqp=mq331AQGsAEggAID#amp_tf=From%20%251%24s&aoh=16985347328280&csi=0&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.dailytelegraph.com.au%2Fnews%2Fopinion%2Fannette-sharp-why-some-will-be-relieved-at-judge-melissa-leongs-masterchef-exit%2Fnews-story%2F4a09298cec970e5ac2e56e3ea6072e05' -v
+   32  curl 'https://www-dailytelegraph-com-au.cdn.ampproject.org/v/s/www.dailytelegraph.com.au/news/opinion/annette-sharp-why-some-will-be-relieved-at-judge-melissa-leongs-masterchef-exit/news-story/4a09298cec970e5ac2e56e3ea6072e05?amp=&amp_gsa=1&amp_js_v=a9&usqp=mq331AQGsAEggAID#amp_tf=From%20%251%24s&aoh=16985347328280&csi=0&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.dailytelegraph.com.au%2Fnews%2Fopinion%2Fannette-sharp-why-some-will-be-relieved-at-judge-melissa-leongs-masterchef-exit%2Fnews-story%2F4a09298cec970e5ac2e56e3ea6072e05'
+   33  8
+   34  curl 'https://www-dailytelegraph-com-au.cdn.ampproject.org/v/s/www.dailytelegraph.com.au/news/opinion/annette-sharp-why-some-will-be-relieved-at-judge-melissa-leongs-masterchef-exit/news-story/4a09298cec970e5ac2e56e3ea6072e05?amp=&amp_gsa=1&amp_js_v=a9&usqp=mq331AQGsAEggAID#amp_tf=From%20%251%24s&aoh=16985347328280&csi=0&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.dailytelegraph.com.au%2Fnews%2Fopinion%2Fannette-sharp-why-some-will-be-relieved-at-judge-melissa-leongs-masterchef-exit%2Fnews-story%2F4a09298cec970e5ac2e56e3ea6072e05'
+   35  sudo apt update
+   36  sudo apt install java17
+   37  sudo apt list | grep hava
+   38  sudo apt list | grep java
+   39  sudo apt list | grep '^java'
+   40  docker ps
+   41  pwd
+   42  sh <(curl https://create.tauri.app/sh)
+   43  cargo
+   44  sudo apt install rustup
+   45  sudo apt install cargo
+   46  lds -l
+   47  ls -ltr
+   48  cd tauri-app/
+   49  ls -ltr
+   50  cat README.md 
+   51  du -a
+   52  npm install --save-dev @tauri-apps/cli
+   53  sudo apt install npm
+   54  npm install --save-dev @tauri-apps/cli
+   55  npm run tauri init
+   56  npm install --save-dev @tauri-apps/cli
+   57  vi sc
+   58  ld -lyt
+   59  ls -ltr
+   60  du -a | grep json
+   61  vi package.json 
+   62  npm run tauri init
+   63  npm run tauri dev
+   64  rustup
+   65  sudo snap install rustup
+   66  sudo snap install rustup --classic
+   67  rustup
+   68  rustup update
+   69  sudo rustup update
+   70  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   71  unset http_proxy
+   72  unset httpd_proxy
+   73  unset https_proxy
+   74  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   75  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -c
+   76  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -x
+   77  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs
+   78  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -c
+   79  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -x
+   80  sudo rm /etc/resolv.conf
+   81  sudo bash -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf'
+   82  sudo bash -c 'echo "[network]" > /etc/wsl.conf'
+   83  sudo bash -c 'echo "generateResolvConf = false" >> /etc/wsl.conf'
+   84  sudo chattr +i /etc/resolv.conf
+   85  sudo bash -c 'echo "generateResolvConf = false" >> /etc/wsl.conf'
+   86  sudo rm /etc/resolv.conf
+   87  sudo bash -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf'
+   88  sudo bash -c 'echo "[network]" > /etc/wsl.conf'
+   89  sudo bash -c 'echo "generateResolvConf = false" >> /etc/wsl.conf'
+   90  sudo chattr +i /etc/resolv.conf
+   91  rm -rf /etc/resolv.conf 
+   92  sudo rm -rf /etc/resolv.conf 
+   93  sudo rm /etc/resolv.conf 
+   94  sudo rm /etc/resolv.conf
+   95  sudo bash -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf'
+   96  sudo bash -c 'echo "[network]" > /etc/wsl.conf'
+   97  sudo bash -c 'echo "generateResolvConf = false" >> /etc/wsl.conf'
+   98  sudo chattr +i /etc/resolv.conf
+   99  sudo vi /etc/resolv.conf 
+  100  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -x
+  101  source "$HOME/.cargo/env"
+  102  history
+  103  npm run tauri dev
+  104  sudo apr install pkg-config
+  105  sudo apt install pkg-config
+  106  npm run tauri dev
+  107  du -a | grep gio-2
+  108  du -a / | grep gio-2
+  109  du -a / 2>/dev/null | grep gio-2
+  110  export  PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/x86_64-linux-gnu/
+  111  npm run tauri dev
+  112  du -a / 2>/dev/null | grep gdk-pixbuf-2.0
+  113  export  PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/
+  114  npm run tauri dev
+  115  du -a / 2>/dev/null | grep pango
+  116  export  PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/x86_64-linux-gnu/
+  117  npm run tauri dev
+  118  du -a / 2>/dev/null | grep 'gdk-pixbuf-2.0
+  119  du -a / 2>/dev/null | grep gdk-pixbuf-2.0
+  120  export  PKG_CONFIG_PATH=$PKG_CONFIG_PATH:
+  121  export  PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+  122  npm run tauri dev
+  123  du -a / 2>/dev/null | grep pango
+  124  export  PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/x86_64-linux-gnu/
+  125  npm run tauri dev
+  126  du -a / 2>/dev/null | grep atk
+  127  export  PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/x86_64-linux-gnu/
+  128  npm run tauri dev
+  129  export  PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/x86_64-linux-gnu/
+  130  npm run tauri dev
+  131  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+  132  command -v nvm
+  133  docker run hello-world
+  134  command -v nvn
+  135  command -v nvm
+  136  command /?
+  137  command -h
+  138  command --help
+  139  nvm ls
+  140  nvm install --lts
+  141  nvm install node
+  142  ls -ltr
+  143  mkdir src
+  144  cd src
+  145  mkdir nodejs
+  146  cd nodejs/
+  147  mkdir nodetest
+  148  cd nodetest/
+  149  ls -ltr
+  150  npm --version
+  151  node --version
+  152  nvm use node
+  153  node --version
+  154  nvm ls-remote
+  155  code .
+  156  sudo snao install code
+  157  sudo snap install code
+  158  sudo snap install code --classic
+  159  ls -ltra
+  160  npm init
+  161  ls -ltr
+  162  vi index.js
+  163  npm install --save express
+  164  node index.js 
+  165  code .
+  166  n
+  167  sudo snap uninstall code
+  168  sudo snap install -d code
+  169  sudo snap remove code
+  170  sudo snap remove code --purge
+  171  docker ps
+  172  code .
+  173  code
+  174  sudo snap remove code --purge
+  175  rm -rf /snap/bin/code
+  176  code
+  177  code .
+  178  alias
+  179  curl http://localhost:10000
+  180  curl http://localhost:3000
+  181  curl http://localhost:3000/
+  182  curl http://localhost:3000/status
+  183  curl http://localhost:3000/statusa
+  184  curl http://localhost:3000/statusa -v
+  185  curl http://localhost:3000/status
+  186  cd so
+  187  curl http://localhost:3000/status
+  188  curl localhost:10000
+  189  docker ps
+  190  code
+  191  ls -ltr
+  192  cd src
+  193  ls -ltr
+  194  cd nodejs/
+  195  ls -ltr
+  196  npm init game1
+  197  history | grep
+  198  npm init 
+  199  pwd
+  200  ls -ltr
+  201  mkdir game1
+  202  cd game1/
+  203  npm init 
+  204  npm --version
+  205  npm install express
+  206  cp ../nodetest/index.js ./
+  207  code .
+  208  node index.js 
+  209  mv index.js index.js.old
+  210  vi index.js
+  211  vi config.js
+  212  mv index.js app.js
+  213  vi app.js 
+  214  node app.js 
+  215  vi app.js 
+  216  node app.js 
+  217  vi app.js 
+  218  node app.js 
+  219  vi app.js 
+  220  node app.js 
+  221  vi app.js 
+  222  node app.js 
+  223  vi app.js 
+  224  node app.js 
+  225  vi app.js 
+  226  node app.js 
+  227  ls -ltr
+  228  vi index.html
+  229  node app.js 
+  230  lsof
+  231  lsof -i :3000
+  232  lsof -i :3000 -a
+  233  lsof -i :3000 -a -n -p
+  234  lsof -i :3000 -p
+  235  lsof -i :3000 -a
+  236  lsof -i :3000 -a -n
+  237  kill 14823
+  238  node app.js 
+  239  cd kafka/
+  240  ls -ltr
+  241  . env.sh 
+  242  cat env.sh 
+  243  $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties
+  244  ls -ltr
+  245  echo $KAFKA_HOME
+  246  $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties
+  247  ls kafka_2.13-3.6.0/bin
+  248  $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties
+  249  vi env.sh 
+  250  . env.sh 
+  251  $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties
+  252  ls -ltr $KAFKA_HOME/bin/
+  253  ls -ltr $KAFKA_HOME
+  254  pwd
+  255  vi env.sh 
+  256  . env.sh 
+  257  $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties
+  258  pwd
+  259  vi env.sh 
+  260  . env.sh 
+  261  $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties
+  262  vi env.sh 
+  263  . env.sh 
+  264  $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties
+  265  vi env.sh 
+  266  . env.sh 
+  267  $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties
+  268  docker exec -it kafka-container /bin/bash
+  269  history
+  270  history >> ~/cmds.txt 
+  271  cd src
+  272  ls -ltr
+  273  cd nodejs/
+  274  ls -ltr
+  275  cd game1/
+  276  ls -ltr
+  277  node app.js 
+  278  code .
+  279  cp index.html index.html.old
+  280  mkdir assets
+  281  mkdir assets/css
+  282  touch assets/css/main.css
+  283  mkdir assets/js
+  284  touch assets/js/main.js
+  285  cd assets/
+  286  ls -ltr
+  287  mkdir img
+  288  ls -ltr
+  289  mkdir char
+  290  mkdir tile
+  291  ls -ltr /mnt/c/Users/matri/Downloads/
+  292  pwd
+  293  ls -ltr
+  294  mv char/ tile/ img/
+  295  cd img/
+  296  cp /mnt/c/Users/matri/Downloads/hero.png char/
+  297  cp /mnt/c/Users/matri/Downloads/*.png tile/
+  298  cd tile/
+  299  ls -ltr
+  300  rm hero*
+  301  ls -ltr
+  302  cd ..
+  303  cd assets/
+  304  cd js
+  305  ls -ltre
+  306  ls -ltr
+  307  cd ..
+  308  cd json/
+  309  ls
+  310  vi map.json 
+  311  java -v
+  312  sudo apt install openjdk-17
+  313  java -v
+  314  sudo apt install openjdk-17-jre-headless
+  315  cd 
+  316  ls -ltr
+  317  mkdir kafka
+  318  cd kafka/
+  319  wget https://dlcdn.apache.org/kafka/3.2.0/kafka_2.13-3.2.0.tgz
+  320  wget https://downloads.apache.org/kafka/3.6.0/kafka_2.13-3.6.0.tgz
+  321  ls -ltr
+  322  tar xvf kafka_2.13-3.6.0.tgz 
+  323  export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64/
+  324  export KAFKA_HOME=~/kafka/kafka_2.13-3.6.0/
+  325  vi env.sh
+  326  ls -ltr
+  327  $KAFKA_HOME/bin/zookeeper-server-start.sh $KAFKA_HOME/config/zookeeper.properties
+  328  export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64/
+  329  $KAFKA_HOME/bin/zookeeper-server-start.sh $KAFKA_HOME/config/zookeeper.properties
+  330  export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64/
+  331  $KAFKA_HOME/bin/zookeeper-server-start.sh $KAFKA_HOME/config/zookeeper.properties
+  332  docker run -d -p 2181:2181 ubuntu/zookeeper:edge
+  333  docker ps
+  334  docker run -d --name kafka-container -e TZ=UTC -p 9092:9092 -e ZOOKEEPER_HOST=host.docker.internal ubuntu/kafka:3.1-22.04_beta
+  335  docker ps
+  336  docker exec -it kafka-container /bin/bash
+  337  history
+  338  history > ~/cmds.txt
+  339  cat ~/cmds.txt | sort | uniq -c
+  340  cat ~/cmds.txt | cut -c10-
+  341  cat ~/cmds.txt | cut -c5-
+  342  cat ~/cmds.txt | cut -c7-
+  343  cat ~/cmds.txt | cut -c8-
+  344  cat ~/cmds.txt | cut -c8- | sort | uniq -c
+  345  cat ~/cmds.txt | cut -c8- | sort | uniq -c | sort -n
+  346  docker ps
+  347  history
+  348  cd kafka/
+  349  . env.sh 
+  350  $KAFKA_HOME/bin/kafka-console-producer.sh --topic sample-topic --broker-list localhost:9092
+  351  history
+  352  history >> ~/cmds.txt 
+  353  cd kafka/
+  354  . env.sh 
+  355  $KAFKA_HOME/bin/kafka-console-consumer.sh --topic sample-topic --from-beginning --bootstrap-server localhost:9092
+  356  history
+  357  history >>~/cmds.txt 
+  358  history
+  359  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  360  sudo apt-get update
+  361  sudo apt-get install ca-certificates curl gnupg
+  362  sudo install -m 0755 -d /etc/apt/keyrings
+  363  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  364  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  365  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  366    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  367  sudo apt-get update
+  368  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  369  docker ps
+  370  kubectl
+  371  kubectl get pods
+  372  helm
+  373  apt-get install helm
+  374  sudo apt-get install helm
+  375  # see https://github.com/helm/helm/releases for versions
+  376  HELM_VERSION=3.8.2
+  377  archType="amd64"
+  378  if test "$(uname -m)" = "aarch64"; then     archType="arm64"; fi
+  379  wget "https://get.helm.sh/helm-v${HELM_VERSION}-linux-${archType}.tar.gz" -O /tmp/helm.tar.gz
+  380  tar -C ~/.local/bin/ -xzf /tmp/helm.tar.gz --wildcards --strip-components 1 '*/helm'
+  381  sudo tar -C ~/.local/bin/ -xzf /tmp/helm.tar.gz --wildcards --strip-components 1 '*/helm'
+  382  sudo su
+  383  cd 
+  384  git clone https://github.com/mbrowne/helm-hello-world.git
+  385  cd helm-hello-world/
+  386  docker build -t helm-hello-world:latest -t helm-hello-world:1.0.0 .
+  387  docker images
+  388  helm install --debug my-first-release charts/hello-world
+  389  sudo span install helm
+  390  sudo spap install helm
+  391  sudo snap install helm
+  392  helm
+  393  mkdir ~/.local
+  394  mkdir ~/.local/bin
+  395  export PATH=$PATH:~/.local/bin
+  396  helm
+  397  # see https://github.com/helm/helm/releases for versions
+  398  HELM_VERSION=3.8.2
+  399  archType="amd64"
+  400  if test "$(uname -m)" = "aarch64"; then     archType="arm64"; fi
+  401  wget "https://get.helm.sh/helm-v${HELM_VERSION}-linux-${archType}.tar.gz" -O /tmp/helm.tar.gz
+  402  tar -C ~/.local/bin/ -xzf /tmp/helm.tar.gz --wildcards --strip-components 1 '*/helm'
+  403  helm
+  404  helm install --debug my-first-release charts/hello-world
+  405  curl http://localhost:30100
+  406  helm
+  407  helm status
+  408  helm install --debug my-first-release charts/hello-worldhelm install --debug my-first-release charts/hello-worldhelm install --debug my-first-release charts/hello-world
+  409  helm list
+  410  helm install --debug my-first-release charts/hello-world
+  411  helm list
+  412  helm upgrade --debug my-first-release charts/hello-world
+  413  helm list
+  414  du -a
+  415  ls -ltr
+  416  cd charts/
+  417  ls -ltr
+  418  cd hello-world/
+  419  ls -ltr
+  420  cat Chart.yaml 
+  421  cd ..
+  422  ls -ltr
+  423  cat README.md 
+  424  history
+  425  history >> ~/cmds.txt 
+  426  ls -ltr
+  427  docker ps
+  428  docker commit 0eafc5ae03e5 ubuntugcc
+  429  telnet localhost 8888
+  430  docker ps
+  431  docker exec -it dfc3b57aa7ed /bin/sh
+  432  pwd
+  433  history
+  434  helm install --debug my-first-release charts/hello-worldhelm install --debug my-first-release charts/hello-worldhelm install --debug my-first-release charts/hello-world
+  435  docker ps
+  436  history
+  437  history | grep helm
+  438  helm install --debug my-first-release charts/hello-world
+  439  helm install --debug my-first-release2 charts/hello-world
+  440  helm
+  441  helm uninstall --debug my-first-release charts/hello-world
+  442  C based server with dynamically loaded logic
+  443  helm list
+  444  helm uninstall --debug my-first-release2 charts/hello-world
+  445  helm list
+  446  ls -ltr
+  447  cat README.md 
+  448  helm install --debug my-first-release charts/hello-world
+  449  helm list
+  450  curl http://localhost:30100
+  451  kubectl config current-context
+  452  code .
+  453  docker images
+  454  docker run helm-hello-world
+  455  helm lis
+  456  helm list
+  457  docker ps
+  458  curl http://localhost:30100
+  459  helm install --debug my-first-release2 charts/hello-world
+  460  helm install --debug my-second-release charts/hello-world
+  461  helm lint
+  462  helm linte charts/hello-world
+  463  helm lint charts/hello-world
+  464  helm install --debug my-first-release2 charts/hello-world --dry-run
+  465  curl http://localhost:30100
+  466  helm-hello-worlddock
+  467  docker ps
+  468  docker logs f37bc06aa7fe
+  469  kubectl proxy
+  470  mkdir blog
+  471  ls -ltr
+  472  cd blog/
+  473  export JEKYLL_VERSION=4.2.0
+  474  docker run --rm   --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll new .
+  475  ls -ltr
+  476  ls -ltr _site/
+  477  docker run --name blog --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/builder:$JEKYLL_VERSION jekyll serve --trace
+  478  docker ps
+  479  docker ps -a
+  480  docker rm 6685e4cef12b
+  481  docker run --name blog --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/builder:$JEKYLL_VERSION jekyll serve --trace -rm
+  482  docker run --name blog --volume="$PWD:/srv/jekyll" -p 4000:4000 -rm -it jekyll/builder:$JEKYLL_VERSION jekyll serve --trace -
+  483  docker run --rm --name blog --volume="$PWD:/srv/jekyll" -p 4000:4000  -it jekyll/builder:$JEKYLL_VERSION jekyll serve --trace -
+  484  docker ps
+  485  docker ps -a
+  486  docker rm 70142274009a
+  487  docker run --rm --name blog --volume="$PWD:/srv/jekyll" -p 4000:4000  -it jekyll/builder:$JEKYLL_VERSION jekyll serve --trace -
+  488  mkdir repo
+  489  git clone https://github.com/lyndon-samson/lyndon-samson.git
+  490  ls -ltr
+  491  tm repo/
+  492  rm repo/
+  493  rm -rf repo/
+  494  ls -ltr
+  495  mv * lyndon-samson/
+  496  ls -ltr
+  497  cd lyndon-samson/
+  498  ls -ltr
+  499  git add 
+  500  git add  .
+  501  git status
+  502  git commit -m "updates"
+  503  git config --global user.email "lyndon.samson"
+  504  git config --global user.username "lyndon.samson"
+  505  git commit -m "updates"
+  506  git config list
+  507  git config list global
+  508  git config --list --global
+  509  git config --global user.name "lyndon.samson"
+  510  git commit -m "updates"
+  511  git push
+  512  cd ..
+  513  ls -ltr
+  514  vi gh_token.txt
+  515  ls -ltr
+  516  cd lyndon-samson/
+  517  ls -ltr
+  518  git push
+  519  ls -ltr
+  520  cd ..
+  521  ls -ltr
+  522  vi gh_token.txt 
+  523  cd lyndon-samson/
+  524  git push
+  525  ls -ltr
+  526  cat index.
+  527  cat index.html 
+  528  cd _site/
+  529  ls -ltr
+  530  pwd
+  531  cd ..
+  532  ls -ltr
+  533  cp _site/* ../
+  534  cp -R _site/* ../
+  535  ls -ltr
+  536  cd _site/
+  537  ls -ltr
+  538  mv * ..
+  539  ls -ltr
+  540  cd ..
+  541  ls -ltr
+  542  git status
+  543  git add .
+  544  git commit -m "updates"
+  545  cat ../gh_token.txt 
+  546  git push origin
+  547  git pull
+  548  git config pull.rebase true
+  549  git pull
+  550  git push origin
+  551  ls -ltr
+  552  cat index.
+  553  cat index.html 
+  554  ls -ltr
+  555  vi _config.yml 
+  556  history
+  557  history | grep jk
+  558  history | grep docker
+  559  history | grep build
+  560  ls -ltr
+  561  git rm *
+  562  git rm -r *
+  563  ls -ltr
+  564  git status
+  565  rm *
+  566  pwd
+  567  ls -ltra
+  568  rm -rf _posts/ jekyll/ assets about/
+  569  ls -ltr
+  570  rm -rf _site/
+  571  ls -ltra
+  572  rm -rf .jekyll-cache/
+  573  git status
+  574  git add
+  575  git add .
+  576  git status
+  577  git commit -m "ok"
+  578  cat ../gh_token.txt 
+  579  git push
+  580  git pull
+  581  ls -ltr
+  582  rm _config.yml 
+  583  git status
+  584  git add .
+  585  git status
+  586  git commit -m "ok"
+  587  git push
+  588  git status
+  589  git checkout main
+  590  ls -ltr
+  591  git push
+  592  git pull
+  593  git rebase --abort
+  594  git pull
+  595  git rebase --continue
+  596  vi _config.yml 
+  597  git rebase --continue
+  598  git add _config.yml 
+  599  git rebase --continue
+  600  echo $EDITOR
+  601  set | grep -i edi
+  602  set | grep -i editor
+  603  git rebase --continue
+  604  git status
+  605  ls -ltr
+  606  rm _config.yml 
+  607  git add .
+  608  git commit -m "ok"
+  609  git push
+  610  ls -ltr
+  611  history
+  612  history | grep docker
+  613  docker run --rm   --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll new .
+  614  ls -ltra
+  615  cat _config.yml 
+  616  history | grep docker
+  617  history
+  618  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  619  ls -ltr
+  620  ls -ltr _site/
+  621  vi _config.yml 
+  622  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  623  git status
+  624  git add .
+  625  git commit -m "ok"
+  626  cat ../gh_token.txt 
+  627  git push
+  628  ls -ltr
+  629  git status
+  630  git branch
+  631  ls -ltr _site
+  632  git add _site
+  633  cd _site/
+  634  date >d.txt
+  635  cd ..
+  636  git status
+  637  git add _site/
+  638  git add -f _site/
+  639  git status
+  640  git commit -m "ok:
+  641  git commit -m "ok"
+  642  git push
+  643  ls -ltr
+  644  vi _config.yml 
+  645  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  646  git status
+  647  git add .
+  648  git commit -m "ok"
+  649  git push
+  650  ls -ltr
+  651  vi _config.yml 
+  652  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  653  git status
+  654  git add _config.yml _site/
+  655  git add -f _config.yml _site/
+  656  git commit -m "ok"
+  657  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
+  658  git push
+  659  docker run -it -v "%CD%:/s" ubuntu
+  660  docker run -it -v "$CWD:/s" ubuntu
+  661  docker run -it -v "$PWD:/s" ubuntu
+  662  cd ..
+  663  mkdir src
+  664  cd src/
+  665  ls -ltr
+  666  mkdir c
+  667  cd c
+  668  mkdir pgm1
+  669  cd pgm1/
+  670  vi server.c
+  671  docker images
+  672  docker run -it -v "$PWD:/s" ubuntugcc
+  673  vi impl1.c
+  674  vi impl2.c
+  675  docker run -it -v "$PWD:/s" ubuntugcc
+  676  less server.c 
+  677  docker run -it -v "$PWD:/s" ubuntugcc
+  678  less server.c 
+  679  code .
+  680  docker run -it -v "$PWD:/s" ubuntugcc
+  681  telnet localhost 8888
+  682  hostname
+  683  telnet lyndonslaptop 8888
+  684  ip addr
+  685  docker ps
+  686  docker exec -it d40902432bb4 /bin/sh
+  687  history
+  688  ls -ltr
+  689  vi run.sh
+  690  history
+  691  vi run2.sh
+  692  ls -ltr
+  693  history
+  694  docker exec -it d40902432bb4 /bin/sh
+  695  cd ..
+  696  ls -ltr
+  697  cd 
+  698  ls -ltr
+  699  cd blog/
+  700  ls -ltr
+  701  ls lyndon-samson/
+  702  git pull
+  703  ls -ltr
+  704  rm -rf jekyll/ index.html  feed.xml  assets/ about/ 404.html 
+  705  ls -ltr
+  706  cd lyndon-samson/
+  707  ls -ltr
+  708  git pull
+  709  cat _posts/2023-12-01-welcome-to-jekyll.markdown 
+  710  pwd
+  711  cd ..
+  712  history | grep jekyl > cmd.txt
+  713  vi cmd.txt 
+  714  ls -ltr
+  715  cd lyndon-samson/
+  716  ls -ltr
+  717  cd _posts/
+  718  ls -ltr
+  719  cp 2023-12-01-welcome-to-jekyll.markdown 2023-12-02-c-server.markdown 
+  720  vi 2023-12-02-c-server.markdown 
+  721  cd ..
+  722  ls -ltr
+  723  cd ..
+  724  ls -ltr
+  725  cat cmd.txt 
+  726  cd lyndon-samson/
+  727  history | grep export
+  728  vi ../cmd.txt 
+  729  cd _posts/
+  730  ls -ltr
+  731  vi 2023-12-02-c-server.markdown 
+  732  cd ..
+  733  history
+  734  cat ../cmd.txt 
+  735  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  736  git status
+  737  vi .gitignore 
+  738  git add _site/
+  739  git add _posts/
+  740  ls -ltr
+  741  git commit -m "ok"
+  742  cat ../gh_token.txt 
+  743  git remote -v
+  744  git remote -edit
+  745  git push
+  746  cat _posts/
+  747  cat _posts/2023-12-02-c-server.markdown 
+  748  vi _posts/2023-12-02-c-server.markdown 
+  749  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  750  git add _posts/ _site
+  751  git commit -m "ok"
+  752  cat ../gh_token.txt 
+  753  git push
+  754  vi _posts/2023-12-02-c-server.markdown 
+  755  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  756  git add _posts/ _site
+  757  git commit -m "ok"
+  758  cat ../gh_token.txt 
+  759  git push
+  760  git status
+  761  ls -ltr
+  762  vi _posts/2023-12-02-c-server.markdown 
+  763  git status
+  764  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  765  vi _posts/2023-12-02-c-server.markdown 
+  766  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  767  git status
+  768  git add _posts/ _site
+  769  git commit -m "ok"
+  770  git remote
+  771  git remote -v
+  772  git remote -h
+  773  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
+  774  git remote -v
+  775  git remote remote set-url --all origin  https://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@github.com/lyndon-samson/lyndon-samson.git
+  776  git remote set-url --all origin  https://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@github.com/lyndon-samson/lyndon-samson.git
+  777  git remote set-url --push origin  https://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@github.com/lyndon-samson/lyndon-samson.git
+  778  git remote -v
+  779  git status
+  780  git push
+  781  cat _posts/2023-12-02-c-server.markdown 
+  782  vi _posts/2023-12-02-c-server.markdown 
+  783  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  784  vi _posts/2023-12-02-c-server.markdown 
+  785  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  786  vi _posts/2023-12-02-c-server.markdown 
+  787  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  788  git add _posts/ _site
+  789  git commit -m "ok"
+  790  git push
+  791  git status
+  792  vi _posts/2023-12-02-c-server.markdown 
+  793  history | grep docker
+  794  history | grep ubunt
+  795  vi _posts/2023-12-02-c-server.markdown 
+  796  docker run -it -v "$PWD:/s" ubuntu
+  797  vi _posts/2023-12-02-c-server.markdown 
+  798  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  799  vi _posts/2023-12-02-c-server.markdown 
+  800  grep highlight  _posts/2023-12-02-c-server.markdown 
+  801  vi _posts/2023-12-02-c-server.markdown 
+  802  grep highlight  _posts/2023-12-02-c-server.markdown 
+  803  grep highlight  _posts/2023-12-02-c-server.markdown -A 1
+  804  vi _posts/2023-12-02-c-server.markdown 
+  805  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  806  grep highlight  _posts/2023-12-02-c-server.markdown -A 1
+  807  grep highlight  _posts/2023-12-02-c-server.markdown 
+  808  grep highlight  _posts/2023-12-02-c-server.markdown  | sort
+  809  vi _posts/2023-12-02-c-server.markdown 
+  810  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  811  git add _posts/ _site
+  812  git commit -m "ok"
+  813  git push
+  814  vi _posts/2023-12-02-c-server.markdown 
+  815  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  816  git add _posts/ _site
+  817  git commit -m "ok"
+  818  git push
+  819  vi _posts/2023-12-02-c-server.markdown 
+  820  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  821  git add _posts/ _site
+  822  git commit -m "ok"
+  823  git push
+  824  history | grep remote
+  825  vi ../gh_token.txt 
+  826  vi _posts/2023-12-02-c-server.markdown 
+  827  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  828  git add _posts/ _site
+  829  git commit -m "ok"
+  830  git push
+  831  ls -lt _posts/
+  832  rm _posts/2023-12-01-welcome-to-jekyll.markdown 
+  833  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  834  git add _posts/ _site
+  835  git commit -m "ok"
+  836  git push
+  837  cat ../gh_token.txt 
+  838  vi _posts/2023-12-02-c-server.markdown 
+  839  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  840  git add _posts/ _site
+  841  git commit -m "ok"
+  842  git push
+  843  vi _posts/2023-12-02-c-server.markdown 
+  844  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  845  git add _posts/ _site
+  846  git commit -m "ok"
+  847  git push
+  848  vi _posts/2023-12-02-c-server.markdown 
+  849  docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll build --trace
+  850  git add _posts/ _site
+  851  git commit -m "ok"
+  852  git push
+  853  ps
+  854  ps -elf | grep docker
+  855  kill 35302
+  856  kill -9 35302
+  857  ls -ltr
+  858  cd src/
+  859  ls -ltr
+  860  cd c/
+  861  l s-ltr
+  862  ls -ltr
+  863  cd pgm1/
+  864  ls -ltr
+  865  docker run -it -v "$PWD:/s" ubuntugcc
+  866  docker run --network host -it -v "$PWD:/s" ubuntugcc
+  867  docker run --network host -it -p 8888:8888 -v "$PWD:/s" ubuntugcc
+  868  docker run -it -p 8888:8888 -v "$PWD:/s" ubuntugcc
+  869  ls -ltr
+  870  cd ..
+  871  https://github.com/lyndon-samson/c-server
+  872  git clone https://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@github.com/lyndon-samson/c-server
+  873  cd c-server/
+  874  ls -ltr
+  875  git remote -v
+  876  ls -ltr ../
+  877  ls -ltr ../pgm1/
+  878  cp../pgm1/* ./
+  879  cp ../pgm1/* ./
+  880  ls -ltr
+  881  rm run2.sh  run.sh  *.so a.out 
+  882  ls -ltr
+  883  rm *.o
+  884  ls -ltr
+  885  git add *.c
+  886  git commit -m "init"
+  887  git push
+  888  cd src
+  889  ls -ltr
+  890  cd c
+  891  ls -ltr
+  892  cd pgm1/
+  893  ls -ltr
+  894  history
+  895  telnet localhost 8888
+  896  netstat -a -n
+  897  sudo apt install net-tools
+  898  netstat -a -n
+  899  netstat -a -n | grep TCP
+  900  netstat -a -n | grep LIS
+  901  sudo netstat -a -n | grep LIS
+  902  sudo netstat -a -n | grep TCP
+  903  sudo netstat -a -n | grep -i TCP
+  904  docker ps
+  905  docker exec -it 913e8b3672e7 /bin/bash
+  906  telnet localhost 8888
+  907  ls -ltr
+  908  cd root/
+  909  ls -ltr
+  910  cd source/
+  911  ls ltr
+  912  cd rust/
+  913  ls -ltr
+  914  cd text_rpg/
+  915  ls -ltr
+  916  gargo run
+  917  gargo run .
+  918  cargo run .
+  919  code .
+  920  cargo run .
+  921  ls -ltr
+  922  ls
+  923  ruby -v
+  924  sudo apt-get install ruby
+  925  ruby -v
+  926  sqlite
+  927  sudo apt-get install sqlite
+  928  sqlite3
+  929  gem install rails
+  930  sudo gem install rails
+  931  sudo gem install ruby-devel
+  932  sudo gem install ruby-dev
+  933  sudo apt-get install ruby-dev
+  934  sudo gem install rails
+  935  rails --version
+  936  cd git
+  937  ls -ltr
+  938  cd helm-rails-app/
+  939  ls -ltr
+  940  rails new rails_blog
+  941  bundle install
+  942  sudo apt-get install ruby-bundler
+  943  bundle install
+  944  ls -ltr
+  945  cd rails_blog/
+  946  ls -ltra
+  947  bundle install
+  948  cat /tmp/bundler20231203-47069-pm4cwopsych-5.1.1.1/extensions/x86_64-linux/3.0.0/psych-5.1.1.1/gem_make.out
+  949  gem install psych -v '5.1.1.1' --source 'https://rubygems.org/'
+  950  sudo gem install psych -v '5.1.1.1' --source 'https://rubygems.org/'
+  951  cat  /var/lib/gems/3.0.0/extensions/x86_64-linux/3.0.0/psych-5.1.1.1/mkmf.log
+  952  sudo apt-get install libyaml
+  953  sudo apt-get install libyaml-dev
+  954  sudo gem install psych -v '5.1.1.1' --source 'https://rubygems.org/'
+  955  bundle install
+  956  history
+  957  history > cmds.txt
